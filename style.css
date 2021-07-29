@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif ;
+}
+header{
+    background-color:#264653;
+}
+/* navbar start  */
+.navbar{
+    color: white;
+}
+.navbar-toggler {
+    border-style:none;
+    color: white;
+}
+.nav-item{
+    align-items: center;
+    padding:10px 0;
+}
+.nav-item a:hover{
+    background-color:gainsboro;
+}
+/* navbar start  */
+
+.login-btn{
+    background-color: #E76F51;
+    margin-right: 0;
+    align-items: center;
+}
+.navbar .ul .login-btn:hover{
+    background-color: #E76F51;
+}
+.banner-section p{
+    font-size: 14px ;
+    font-weight: 300;
+    line-height: 24px;
+}
+.banner-section h1{
+    color: white;
+    font-size: 48px ;
+    font-weight: 600;
+    line-height: 72px;
+
+}
+.heading {
+    font-size: 48px ;
+    font-weight: 600;
+    line-height: 72px;
+}
+.featured-title p{
+    color: #E76F51;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.featured-title hr{
+    width: 100px;
+    padding: 2px;
+    margin-top: -10px;
+    color: #E76F51;
+}
+
+.grayscale img{
+    width: 35%;
+    filter: grayscale(0%);
+
+}
+.grayscale img:hover{
+    filter: grayscale(100%);
+
+}
+.card-body .btn:hover{
+    background-color: #E76F51;
+    color: white;
+}
+/* clients section */
+
+.client-card img{
+    
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+.fas.full{
+    color: #E77C40; 
+}
+.far.empty{
+    color: #E77C40;
+ 
+}
+.client-name{
+    color:#23A6F0;
+    font-size: 14px;
+    
+}
+.client-name+p{
+    font-size: 14px;
+    color:goldenrod
+    /* color:#252B42; */
+}
+
+/* clients section */
+
+
+/* emoji section  */
+.fun{
+    background: linear-gradient(45deg,rgb(22, 172, 172),yellow);
+    border:none;
+    width:100%;
+    color: white;
+    margin-bottom: 2rem;
+}
+.gif{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+/* emoji section end  */
+/* contact section start  */
+.contact a>i:hover{
+    transform: scale(1.2, 1.3);
+    transition: transform ease-in 0.2s;
+}
+/* contact section end  */
